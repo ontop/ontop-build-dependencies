@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Protege JDBC Registry Plugin
+Bundle-SymbolicName: org.protege.osgi.jdbc.prefs;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: org.protege.osgi.jdbc.prefs.Activator
+Bundle-Vendor: The Protege Development Team
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: javax.swing,
+ javax.swing.border,
+ javax.swing.colorchooser,
+ javax.swing.event,
+ javax.swing.filechooser,
+ javax.swing.plaf,
+ javax.swing.plaf.basic,
+ javax.swing.plaf.metal,
+ javax.swing.plaf.multi,
+ javax.swing.plaf.synth,
+ javax.swing.table,
+ javax.swing.text,
+ javax.swing.text.html,
+ javax.swing.text.html.parser,
+ javax.swing.text.rtf,
+ javax.swing.tree,
+ org.osgi.framework,
+ org.osgi.util.tracker,
+ org.protege.osgi.jdbc
+Require-Bundle: org.protege.common,
+ org.protege.editor.core.application,
+ org.protege.editor.owl
