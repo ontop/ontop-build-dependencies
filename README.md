@@ -8,7 +8,7 @@ Some dependencies for building ontop distributions
 ```terminal
 $ git add file/to/be/added
 $ git ci -m 'add a new file'
-$ git push
+$ git push origin HEAD:master
 $ cd ..
 
 # now you are in the root directory of ontop
