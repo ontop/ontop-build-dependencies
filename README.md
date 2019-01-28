@@ -10,7 +10,7 @@ $ git add file/to/be/added
 $ git ci -m 'add a new file'
 $ git push origin HEAD:master
 
-$ cd ..
+$ cd ../..
 
 # now you are in the root directory of ontop
 $ git submodule update --remote
