@@ -1,4 +1,4 @@
-ontop-build-dependencies
+ontop-build-dependencies (deprecated)
 ==================
 
 Some dependencies for building ontop distributions
